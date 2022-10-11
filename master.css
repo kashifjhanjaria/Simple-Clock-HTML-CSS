@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock-dial {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: lightcoral;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.circle {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  border-radius: 50%;
+  z-index: 1;
+}
+.minuts {
+  width: 30px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: lightblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+}
+.second {
+  width: 30px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: yellow;
+  position: absolute;
+  top: 50px;
+  left: 35px;
+  transform: rotate(90deg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.twelve {
+}
+.three {
+}
+.six {
+}
+.nine {
+}
